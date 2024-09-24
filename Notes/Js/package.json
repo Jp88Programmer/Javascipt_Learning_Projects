@@ -1,0 +1,17 @@
+{
+  "name": "notesapp",
+  "version": "1.0.0",
+  "description": "this is notes application to save the important work or quick and short notes ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jayendra parmar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "fs": "^0.0.1-security",
+    "mongoose": "^6.2.0",
+    "requirejs": "^2.3.6"
+  }
+}

@@ -1,0 +1,176 @@
+*{
+    margin:  0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Noto Sans Mono', monospace;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.fontSizeOfNav{
+    font-size: 20px;
+    padding: 15px 10px;
+}
+
+#mainContent{
+
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    /* display: flex; */
+}
+
+section .addNote{
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+}
+
+section#addNote h1#headingOfNote{
+
+    margin: 25px 30px;
+    font-size: 30px;
+}
+
+h1#headingOfNote input {
+
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(231, 229, 229);
+    font-size: 30px;
+    text-align: center;
+
+
+} 
+
+section .section{
+
+    font-size: medium;
+    margin: auto;
+    padding: 34px 46px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+div#note{
+
+     width: 400px;
+     height: 500px;
+     display: inline-block;
+     background-color: rgb(229, 236, 243);
+     border-radius: 10px;
+     border: none;
+     margin: 20px 34px;
+     padding: 10px 10px;
+    overflow: scroll;     
+
+}
+
+textarea#textareaNote{
+
+     width: 400px;
+     height: 500px;
+     /* display: inline-block; */
+     background-color: rgb(229, 236, 243);
+     border-radius: 10px;
+     border: 2px solid black;
+     text-align: left;
+    
+}
+
+.button{
+
+    margin: 20px 15px;
+    padding: 8px 10px;
+    border: none;
+    background-color: rgb(15, 15, 245);
+    color: white;
+    cursor: pointer;
+}
+
+div.divSaveNoteBox{
+
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* display: inline-block; */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: inline-block;
+    align-self: center;
+    
+} 
+
+div.divSaveNotes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    overflow: scroll;
+}
+div.saveNote{
+    display: inline-block;
+    text-align: center;
+    margin: 10px 7px ;
+    padding: 10px 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+section#save{
+
+    background-color: blueviolet;
+    border-radius: 20px;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+}
+
+section#save h1 {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 10px;
+    
+}
+
+section#save div {
+
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    box-sizing: border-box;
+    overflow:scroll;
+    scrollbar-width: 2px;
+    border-radius: 0px;
+    
+}
+
+/* edit and delete button */
+.buttonForSaveNote{
+
+    /* font-size: medium; */
+    background-color: blue;
+    color: white;
+    margin: 10px 10px;
+    padding: 7px 10px;
+    border-radius: 7px;
+    border: none;
+    
+}
+
+.buttonForSaveNote:hover{
+
+    background-color: blueviolet; 
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+}

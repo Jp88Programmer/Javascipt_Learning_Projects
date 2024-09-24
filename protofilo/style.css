@@ -1,0 +1,449 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Mukta:wght@300&family=Noto+Sans+Mono:wght@300&family=Poppins:wght@300&family=Source+Code+Pro:wght@300&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&family=Montserrat:wght@600&family=Mukta:wght@300&family=Noto+Sans+Mono:wght@300&family=Poppins:wght@300&family=Source+Code+Pro&family=Ubuntu:wght@300&display=swap');
+
+* {
+
+    margin: 0px 0px;
+    padding: 0px 0px;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+
+}
+
+@media screen and (max-width : 0px) {
+
+    body {
+
+        background-color: blue;
+    }
+
+    .sidebar {
+
+        background-color: rgb(158, 131, 131);
+        width: 20vw;
+        /* height: 100vh; */
+        font-family: 'Mukta', sans-serif;
+        position: absolute;
+        /* transition: transform 1s ease 0.01s; */
+        /* transform: translate(-350px); */
+        transition: transform 0.2s ease 0.1s;
+        z-index: 1;
+        /* visibility: visible; */
+
+
+    }
+
+    .sidebarGo {
+
+        transform: translate(-400px);
+        position: absolute;
+
+
+    }
+
+    .ham {
+
+        height: 30px;
+
+        position: absolute;
+        top: 20px;
+        left: 0px;
+        visibility: visible;
+        cursor: pointer;
+        z-index: 2;
+        transition: transform 0.2s ease 0.1s;
+
+    }
+
+    .but {
+        padding: 12px;
+        margin: 12px;
+        width: 125px;
+        color: black;
+        font-size: 16px;
+    }
+
+}
+
+.container {
+
+    /* display: flex; */
+}
+
+.ham {
+    height: 30px;
+    position: absolute;
+    top: 22px;
+    left: 0px;
+    cursor: pointer;
+    z-index: 2;
+    /* transition: transform 0.2s ease 0.1s; */
+}
+
+.hamToggle {
+    display: none;
+}
+
+.navBar {
+
+    display: flex;
+    background-color: rgb(194, 143, 143);
+    align-items: center;
+
+}
+
+.ul {
+
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    /* text-align: center; */
+}
+
+.navBar .heading1 {
+
+    font-size: 35px;
+    font-family: 'Ubuntu', sans-serif;
+    display: inline;
+    margin: auto 20px;
+
+}
+
+.mainTitel {
+
+    margin: auto 20px;
+    font-size: 35px;
+    font-family: 'Ubuntu', sans-serif;
+    display: inline;
+    text-align: center;
+    margin: 0px auto;
+    padding: 15px 34px
+}
+
+.navBar li {
+
+    list-style: none;
+    /* margin: 30px;
+     */
+    justify-self: center;
+    align-items: center;
+    font-size: 25px;
+    padding: 20px 10px;
+    font-family: 'Mukta', sans-serif;
+    /* margin: auto 30px; */
+
+
+}
+
+/* for link and a  */
+.navBar a, .sidebar a {
+
+    text-decoration: none;
+    color: black;
+    padding: 2px 15px;
+    border-radius: 60px;
+    transition: all 0.5s ease 0.01s;
+
+}
+
+.navBar a:hover, .sidebar a:hover {
+
+
+    background-color: white;
+    /* border-radius: 40px; */
+
+}
+
+.sidebar {
+
+    background-color: rgb(158, 131, 131);
+    width: 200px;
+    /* height: 200vh; */
+    top: 52px;
+    font-family: 'Mukta', sans-serif;
+    position: absolute;
+    margin: 0px auto;
+    /* transition: transform 1s ease 0.01s; */
+    /* transform: translate(-350px); */
+    transition: transform 0.2s ease 0.1s;
+    z-index: 1;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    /* visibility: visible; */
+
+
+}
+
+
+.sidebarGo {
+
+    transform: translate(-500px);
+    position: absolute;
+    visibility: hidden;
+
+
+}
+
+/* 
+.sidebar:hover {
+
+    transform: translate(-480px);
+    /* display: none; 
+} */
+
+.sidebar li {
+
+    list-style: none;
+    margin: 20px auto;
+    font-size: 30px;
+    padding: 10px 10px;
+    /* margin: auto 30px; */
+
+}
+
+.main {
+
+    display: flex;
+    flex-direction: column;
+
+    /* background-color: rgb(131, 131, 172); */
+    margin: 25px auto;
+    width: 80vw;
+    /* text-align: center; */
+    /* height: 1vh; */
+    border: none;
+    border-radius: 30px;
+    justify-content: center;
+    padding: 20px 50px;
+    box-shadow: 20px 20px 40px rgb(44, 40, 40);
+}
+
+.info {
+
+    display: flex;
+    /* background-color: rgb(221, 56, 56); */
+    width: 10vw;
+    height: 100vh;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+
+}
+
+.infoYourself {
+
+    /* background-color: rgb(131, 131, 172); */
+    margin: 50px auto;
+    /* width: 30vw; */
+    /* text-align: center; */
+    /* height: 50vh; */
+    border: none;
+    /* border-radius: 30px; */
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: center;
+    /* padding: 40px auto; */
+    /* box-shadow: 20px 20px 40px rgb(44, 40, 40); */
+    display: inline;
+}
+
+.profiePhoto {
+
+    background-color: antiquewhite;
+    width: 20;
+
+}
+
+.profile {
+
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Noto Sans Mono', monospace;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 5px 20px;
+    margin: 10px;
+
+}
+
+#yourself {
+
+    font-size: 70px;
+
+}
+
+#name {
+
+    font-size: 50px;
+
+}
+
+#skills {
+
+    font-size: 30px;
+}
+
+.MyPhoto {
+
+    margin: 100px auto;
+    width: 17vw;
+    height: 45vh;
+    border: none;
+    border-radius: 30px;
+}
+
+.infoForEver {
+    text-align: center;
+}
+
+.but {
+
+    padding: 10px;
+    margin: 10px auto;
+    cursor: pointer;
+    background-color: rgb(159, 211, 194);
+    font-size: medium;
+    border: 2px solid black;
+    width: 8vw;
+    /* height: 100px; */
+    border-radius: 30px;
+    display: inline-block;
+
+
+}
+
+.but:hover {
+    background-color: rgb(13, 173, 120);
+    border: none;
+    color: rgb(20, 12, 27);
+    box-shadow: 1px 4px 10px rgb(44, 40, 40);
+}
+
+/* contact form  */
+
+/* for set layout of form of feedback */
+.infoForContact {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.main h1 {
+
+    font-size: 32px;
+    text-align: left;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.contact-form {
+
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Noto Sans Mono', monospace;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Ubuntu', sans-serif;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form div {
+
+    /* display: flex; */
+    /* text-align: left; */
+    /* flex-direction: column; */
+    margin: 10px 34px;
+    padding: 10px 23px;
+    font-size: 30px;
+
+}
+
+.form-control {
+
+    display: block;
+    margin-top: 20px;
+    padding: 5px 10px;
+    width: 30vw;
+    height: 7vh;
+    font-size: 30px;
+    text-align: left;
+    border-radius: 30px;
+    border: 2px solid black;
+}
+
+.contact-form div .form-text {
+    font-size: 12px;
+    text-align: left;
+    margin: 0px -22px;
+    color: rgb(3, 58, 40);
+
+}
+
+.contact-form button {
+
+    font-size: 22px;
+    padding: 5px 10px;
+    border-radius: 30px;
+    background-color: rgb(159, 211, 194);
+
+    border: 2px solid black;
+    cursor: pointer;
+    width: 120px;
+    margin: 20px auto;
+    align-items: center;
+    justify-self: center;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Noto Sans Mono', monospace;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+
+}
+
+.contact-form button:hover {
+    background-color: rgb(252, 252, 252);
+    /* border: none; */
+    color: rgb(20, 12, 27);
+    /* box-shadow: 1px 4px 10px rgb(44, 40, 40); */
+}
+
+/* To make Blog */
+.blog-contant {
+
+    margin: 10px 10px;
+    padding: 10px;
+    font-size: 17px;
+    /* text-align: center; */
+    font-family: 'Ubuntu', sans-serif;
+    /* font-family: 'Comfortaa', cursive; */
+    /* font-family: 'Montserrat', sans-serif; */
+}
+
+.para, .para1 {
+
+    margin: 10px 0px;
+
+}
+
+.projectBox {
+
+    margin: 5px 20px;
+    padding: 15px 20px;
+    font-size: 17px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.heading2, .heading3, .heading4 {
+
+    font-family: 'Ubuntu', sans-serif;
+}

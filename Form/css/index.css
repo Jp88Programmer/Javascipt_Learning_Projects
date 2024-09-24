@@ -1,0 +1,166 @@
+/* This the form of recuriments procees by tcs */
+
+/* general utility  */
+*{
+
+    font-size: large;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+/* header  */
+header{
+
+    display: flex;
+    flex-direction: row;
+    /* grid-template-columns: center right; */
+    /* grid-column: auto; */
+    align-items: center;
+    /* justify-self: center; */
+    justify-content: center;
+    background-color: rgb(57, 57, 202);
+    color: rgb(235, 232, 232);
+    margin: 0px auto;
+    padding: 34px 23px ;
+    /* text-align: center; */
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans Mono', monospace;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Poppins', sans-serif;
+
+}
+/* header titel */
+header h1{
+    font-size: 30px;
+    text-align: center;
+    display: inline;
+}
+/* details*/
+details{
+
+    align-items: center;
+    justify-self: center;
+    background-attachment: fixed;
+    margin: 10px 20px;
+    padding: 20px 30px;
+    transition: all 1s ease-out 1ms;
+
+}
+.dropdown{
+    /* font-size: medium; */
+    /* background-color: aqua; */
+    width: 1051px;
+    text-align: end;
+}
+.aboutForm{
+    background-color: rgb(65, 33, 226);
+    border-radius: 5px;
+    font-size: larger;
+    padding: 3px;
+    text-decoration: none;
+    /* background: none; */
+    display: inline-block;
+    /* border: none; */
+}
+
+.aboutForm:hover{
+    background-color: rgb(241, 241, 245);
+}
+
+/* main content of page */
+article{
+    display: flex;
+    margin: 10px 2px;
+    /* align-items: center; */
+    justify-content: center;
+    padding: 30px;
+    background-color: rgb(230, 234, 243);
+    border-radius: 10px;
+    border: 3px solid black;
+    overflow: hidden;
+}
+/* form */ 
+form{
+    
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    /* text-align: center; */
+    padding: 40px ;
+    margin: 20px 0px ;
+
+}
+
+.div{
+
+    padding: 20px 60px;
+    margin: auto 30px;
+    align-self: center;
+
+}
+/* input field */
+div input {
+    /* margin: auto 30px; */
+    border-radius: 10px;
+    border: none;
+}
+/* text field */
+div .text-field{
+    width: 300px;
+    height: 30px;
+}
+/* Date */
+div #DateBirth{
+    width: 290px;
+    height: 33px;
+}
+/* email */
+div #Email{
+    width: 310px;
+}
+/* select */
+div select{
+    padding: 7px ;
+    text-decoration: none;
+    list-style: none;
+    border-radius: 10px;
+    border: none;
+}
+
+div textarea{
+    padding: 10px 3px;
+    margin: 10px 0px ;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgb(124, 123, 123) ;
+}
+
+#button{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    justify-self: center;
+}
+div .btn{
+    
+    padding: 7px 12px;
+    margin: 10px 64px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(65, 33, 226);
+    color: white;
+}
+
+div .btn:hover{
+
+    background-color: rgb(191, 191, 196);
+    color: rgb(6, 21, 44);
+    cursor: pointer;
+}
+
+
+
+
+
+

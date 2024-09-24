@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Animation Text Using Typejs</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Learn <span class="auto-text"></span></h1>
+        <h1>Learn <span class="auto-text1"></span></h1>
+        <h1>Learn <span class="auto-text2"></span></h1>
+        <h1>Learn <span class="auto-text3"></span></h1>
+        <h1>Learn <span class="auto-text4"></span></h1>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var options = {
+            strings : ['c','c++','java','Javascript','python'],
+            typeSpeed : 50,
+
+            backSpeed : 50,
+
+            loop : true
+
+
+        }
+        var type = new Typed(".auto-text",options);
+        var type1 = new Typed(".auto-text1",options);
+        var type2 = new Typed(".auto-text2",options);
+        var type3 = new Typed(".auto-text3",options);
+        var type4 = new Typed(".auto-text4",options);
+
+    </script>
+</body>
+</html>

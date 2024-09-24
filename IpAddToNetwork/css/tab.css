@@ -1,0 +1,135 @@
+/* To make responsive web applicatioin  */
+
+/* ip-address to network address and broadcast address  */
+
+/* General utility */
+*{
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Noto Sans Mono', monospace;
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: medium;
+}
+html{
+
+    font-size: large;
+}
+
+/* set up heading and navigation */
+header{
+
+    color: white;
+    background-color: rgb(41, 39, 39);
+    /* opacity: 0.9; */
+    font-family: 'Noto Sans Mono', monospace;
+    font-family: 'Poppins', sans-serif;
+    padding: 17px 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* font-size: 1px; */
+    text-align: center;
+
+}
+h1{
+    text-align: center;
+}
+/* form */
+form{
+
+    font-size: 2rem;
+    /* margin: 9.35rem; */
+    margin: 0rem;
+    /* height: 28rem; */
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    overflow: hidden;
+    text-align: center;
+    /* background-origin: padding-box; 
+    background-repeat: no-repeat; */
+
+   
+}
+header:before{
+
+    /* background-color: black; */
+    background-image: url(../html/images/thomas-jensen-ISG-rUel0Uw-unsplash.jpg)  ;
+    /* background-origin: padding-box; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.5;
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+
+}
+/* input property */
+div#insouts{
+    margin: 8rem 0rem;
+    
+}
+div.label{
+    
+    font-size: 2rem;
+    display: block;
+    margin: 1.5rem ;
+    font-size: medium;
+    padding: 5px;
+    
+}
+
+div input{
+    width: 13rem;
+    height: 1.5rem;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin: auto;
+    text-align: left;
+}
+
+
+input#ip-address{
+    width: 10rem;
+}
+input#subnet-mask{
+    width: 3rem;
+}
+form .button{
+    margin: 13px 7px;
+    padding: 2px 3px ;
+    border-radius: 10px;
+    width: fit-content;
+    height: auto;
+    border: 1px double rgb(163, 163, 163);
+    background-color: rgb(216, 213, 218);
+    transition: background-color 0.1s ease-in-out 1ms;
+}
+form .button:hover{
+    background-color: rgb(156, 154, 156);  
+}
+
+/* footer */
+footer{
+    /* display: none; */
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 8px ;
+    z-index: -1;
+    overflow: hidden;
+}
+footer p {
+        padding: 2px;
+        margin-bottom: 0rem;
+
+}

@@ -1,0 +1,4 @@
+.alertMsg{
+    border: 1px solid red;
+    content: 'this is content alert';
+}

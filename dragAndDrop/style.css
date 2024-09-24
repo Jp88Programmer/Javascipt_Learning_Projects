@@ -1,0 +1,24 @@
+.divBox {
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    margin: 10px 10px;
+    display: inline-block;
+}
+
+.imgBox {
+    background: url('image.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+}
+
+.hold {
+
+    border: 2px solid red;
+}
+
+.hide {
+    display: none;
+}

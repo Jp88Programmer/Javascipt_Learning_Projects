@@ -1,0 +1,117 @@
+/* Responsive Web Application */
+
+/* general utility  */
+
+*{
+
+    font-size: medium;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+body{
+    
+    
+}
+
+
+/* main content of page */
+article{
+
+    display: flex;
+    margin: 6px 2px;
+    /* align-items: center; */
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: rgb(230, 234, 243);
+    border-radius: 10px;
+    border: 3px solid black;
+    overflow: hidden;
+    
+}
+/* form */
+form{
+    
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    /* text-align: center; */
+    padding: 30px ;
+    margin: 10px 0px ;
+
+}
+
+.div{
+
+    padding: 10px 20px;
+    margin: auto 25px;
+    align-self: center;
+
+}
+/* input field */
+div input {
+    margin: 10px 0px;
+    border-radius: 10px;
+    border: none;
+}
+/* text field */
+div .text-field{
+    width: 200px;
+    height: 30px;
+}
+/* Date */
+div #DateBirth{
+    width: 200px;
+    height: 30px;
+}
+/* email */
+div #Email{
+    width: 200px;
+}
+/* select */
+div select{
+    margin: 20px 0px;
+    padding: 7px ;
+    text-decoration: none;
+    list-style: none;
+    border-radius: 10px;
+    border: none;
+}
+
+div textarea{
+    padding: 5px 3px;
+    margin: 10px 0px ;
+    border: none;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgb(124, 123, 123) ;
+}
+
+#button{
+    
+    display: flex;
+    flex-direction: row;
+    
+}
+div .btn{
+    
+    padding: 7px 7px;
+    margin: 10px 20px;
+    text-align: center;
+
+}
+
+div .btn:hover{
+
+    background-color: rgb(222, 222, 233);
+    color: rgb(6, 21, 44);
+    cursor: pointer;
+}
+div  #radio-male{
+    /* font-size: 20px
+    ; */
+    /* width: 10px; */
+    font-size: larger;
+}

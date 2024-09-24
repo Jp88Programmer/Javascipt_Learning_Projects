@@ -1,0 +1,21 @@
+{
+  "name": "loginform",
+  "version": "1.0.0",
+  "description": "this is the login form form backend stor data to use it and finding user is exist or not this common project domain ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/app.js -e js,html,hbs,css"
+  },
+  "author": "jayendra parmar",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "hbs": "^4.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.3"
+  }
+}

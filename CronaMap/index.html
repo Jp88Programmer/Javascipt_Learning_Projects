@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Display a map on a webpage</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css" rel="stylesheet">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="covidTable">
+        <div class="inputBox">
+            <input type="text" id="getText">
+            <button id="btn">Search</button>
+        </div>
+        <div class="Tdata">
+            <div class="data" id="data">
+
+            </div>
+        </div>
+    </div>
+    <div class="mapBox">
+        <div id="map"></div>
+    </div>
+
+    <div class="footer">
+        <span>Wear A Mask Stay Safe <img src="pray.png" alt="pray"></span>
+    </div>
+    <script src="script.js"></script>
+    <script src="index.js"></script>
+
+</body>
+
+</html>
